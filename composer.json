@@ -16,7 +16,7 @@
     "rikudou/czqrpayment": "^4.0",
     "rikudou/skqrpayment": "^2.3",
     "endroid/qr-code": "^3.2",
-    "rikudou/installer": "^2.2",
+    "rikudou/installer": "dev-composer_2",
     "rikudou/euqrpayment": "^1.0"
   },
   "autoload": {
