@@ -23,12 +23,13 @@
     "psr-4": {
       "Rikudou\\QrPaymentBundle\\": ""
     }
-  }
+  },
   "repositories": [
     {
       "type": "vcs",
       "url": "https://github.com/graineeg/RikudouInstaller",
       "minimum-stability": "dev",
       "prefer-stable": true
-    }],
+    }
+  ],
 }
