@@ -15,10 +15,8 @@ class Configuration implements ConfigurationInterface
      */
     public function getConfigTreeBuilder()
     {
-        $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root("rikudou_qr_payment");
-
-        $rootNode
+        $treeBuilder = new TreeBuilder('rikudou_qr_payment');
+        $treeBuilder->getRootNode()
             ->children()
                 ->arrayNode("cz")
                     ->children()
