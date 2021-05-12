@@ -20,6 +20,9 @@
     "rikudou/installer": "dev-composer_2",
     "rikudou/euqrpayment": "^1.0"
   },
+  "require-dev": {
+    "rikudou/installer": "dev-composer_2"
+  },
   "autoload": {
     "psr-4": {
       "Rikudou\\QrPaymentBundle\\": ""
